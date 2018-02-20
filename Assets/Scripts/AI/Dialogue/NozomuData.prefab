@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1977405155672730}
+  m_IsPrefabParent: 1
+--- !u!1 &1977405155672730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4172927270051336}
+  - component: {fileID: 114602745892952296}
+  - component: {fileID: 114218285587271192}
+  m_Layer: 0
+  m_Name: NozomuData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4172927270051336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977405155672730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 630.5835, y: 316.55853, z: 85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114218285587271192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977405155672730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652a96b619a21934d9543a9e65111d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoStart: 0
+  zbior:
+  - message: Is your name <name> or something? Or is it <nickname>?
+    emotion: 11
+  - message: Look what the cat dragged in.
+    emotion: 12
+  - message: I hope you know what you're doing.
+    emotion: 4
+  - message: Let's see what happens next.
+    emotion: 0
+  - message: This isn't right. This isn't right at all.
+    emotion: 7
+--- !u!114 &114602745892952296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977405155672730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5063de5e5e47a67489cd8b4959891497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotionPack:
+  - emotion: 0
+    textures:
+    - {fileID: 2800000, guid: 452d2e56dc3b3244180f9c7d0fba6da0, type: 3}
+    - {fileID: 2800000, guid: 3380051c2457997479374dcdc289f6b5, type: 3}
+    - {fileID: 2800000, guid: c5da1ea1e11a12148814a281966072eb, type: 3}
+    finalEmotion: 0
+  - emotion: 1
+    textures:
+    - {fileID: 2800000, guid: 2cd4c41b6f18f1b46834991ad2341e8d, type: 3}
+    - {fileID: 2800000, guid: 0dda4c88827b172448c97bb886acf917, type: 3}
+    - {fileID: 2800000, guid: 86bb5699a92e54b4990dd5111c57acab, type: 3}
+    - {fileID: 2800000, guid: 7a549bf11eb0f3f4595eb9400652c3ff, type: 3}
+    finalEmotion: 0
+  - emotion: 2
+    textures:
+    - {fileID: 2800000, guid: a7aeab585ad1f85469bc93548ec6cb99, type: 3}
+    - {fileID: 2800000, guid: aa7241687377b324c9669599a2a395c8, type: 3}
+    - {fileID: 2800000, guid: 86c8022b8aced27449eacfe6ace85c79, type: 3}
+    finalEmotion: 0
+  - emotion: 3
+    textures:
+    - {fileID: 2800000, guid: 32ccbc29ed3cdee4097f122db512c7a4, type: 3}
+    - {fileID: 2800000, guid: 4d00a2d536778a049a3d2f3fb6db84d2, type: 3}
+    - {fileID: 2800000, guid: 359be84e619e8164da7325f15ed7213e, type: 3}
+    finalEmotion: 0
+  - emotion: 4
+    textures:
+    - {fileID: 2800000, guid: 7746f608e394afd40b486cde19c5c57a, type: 3}
+    - {fileID: 2800000, guid: 84a23e19d9244d1468c5ce11a56d72d8, type: 3}
+    - {fileID: 2800000, guid: 5397da281a56ccc45b6a1f567f8f6550, type: 3}
+    finalEmotion: 0
+  - emotion: 5
+    textures:
+    - {fileID: 2800000, guid: e1c66a6ea3df6fc4cae3c10be497583a, type: 3}
+    - {fileID: 2800000, guid: f69d09e5d2b832543be599a55ad3ff1b, type: 3}
+    - {fileID: 2800000, guid: 4e4d3546089f0e443bf25d1b073d616c, type: 3}
+    finalEmotion: 0
+  - emotion: 6
+    textures:
+    - {fileID: 2800000, guid: 35abd8ead8ee029449b11eb5e09e8cee, type: 3}
+    - {fileID: 2800000, guid: dc0270957a749b146b3a3d2b8128b225, type: 3}
+    - {fileID: 2800000, guid: 7b09d5555dc440c4b9ab6680a2728bdd, type: 3}
+    finalEmotion: 0
+  - emotion: 7
+    textures:
+    - {fileID: 2800000, guid: a61b3d1f79521a54f804b52f08bd0ec0, type: 3}
+    - {fileID: 2800000, guid: fe95590d5c68d554d8d8e1eacefb7966, type: 3}
+    - {fileID: 2800000, guid: 88465ad39dc2e5c48b9b9a3e9b78311b, type: 3}
+    finalEmotion: 0
+  - emotion: 8
+    textures:
+    - {fileID: 2800000, guid: 799e591dfef35fa4d9d1c23bc923d9e4, type: 3}
+    - {fileID: 2800000, guid: 28a1866608b889f4ca40a20847f85b51, type: 3}
+    - {fileID: 2800000, guid: 16ebd017603e06f488bf8dd43af0a5dc, type: 3}
+    finalEmotion: 0
+  - emotion: 9
+    textures:
+    - {fileID: 2800000, guid: 6165b9c92954ac34f92f99464a9f96e8, type: 3}
+    - {fileID: 2800000, guid: c8fc317755130144f987966de6999208, type: 3}
+    - {fileID: 2800000, guid: b938bcd1fde4d1343a9d072fa919e9f3, type: 3}
+    finalEmotion: 0
+  - emotion: 10
+    textures:
+    - {fileID: 2800000, guid: 29f8f343d029b234999a198009c2bfd8, type: 3}
+    - {fileID: 2800000, guid: 5cb5c36f46a2153438621d4e2edf9417, type: 3}
+    - {fileID: 2800000, guid: bedc4753cc802e84a9cdad9c4b4e3495, type: 3}
+    finalEmotion: 0
+  - emotion: 11
+    textures:
+    - {fileID: 2800000, guid: 640c79b95b46f00448f51619b7a6c7ba, type: 3}
+    - {fileID: 2800000, guid: 93cf2041545a9504d8a1b279ffdd5eb7, type: 3}
+    - {fileID: 2800000, guid: a270996bda9eacd44a5b0aa351ba1f57, type: 3}
+    finalEmotion: 0
+  - emotion: 12
+    textures:
+    - {fileID: 2800000, guid: 04689b5a118ab7944b8cb038fc74397e, type: 3}
+    - {fileID: 2800000, guid: baff0e17dc139994aa692db38ae0edb3, type: 3}
+    - {fileID: 2800000, guid: 1da16a5b53ab7c440979d4c041d0ec66, type: 3}
+    finalEmotion: 0
+  - emotion: 13
+    textures:
+    - {fileID: 2800000, guid: 014a080e170e3ac4a9f78acac58bf971, type: 3}
+    - {fileID: 2800000, guid: ad575074eac6bf240bf524fb001c3e6e, type: 3}
+    - {fileID: 2800000, guid: f728db4a36947534b8c055ad52a458b4, type: 3}
+    finalEmotion: 0
