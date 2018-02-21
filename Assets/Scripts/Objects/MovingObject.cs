@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour, IUsable {
 
-    Vector3 startPos;
+	/* Object that travels along set path when activated */
+
+	Vector3 startPos;
     Quaternion startRot;
     public Vector3 endPos;
     public Vector3 endRotation;

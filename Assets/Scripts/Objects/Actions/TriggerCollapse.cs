@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class TriggerCollapse : MonoBehaviour {
 
-    public int layer;
+	/* Will make objects approached my player unfreeze and fall */
+
+	public int layer;
     public Vector3 force;
     Rigidbody rb;
     AudioSource aSource;

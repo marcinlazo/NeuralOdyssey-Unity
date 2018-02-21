@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class BlackHole : MonoBehaviour {
 
-    [SerializeField] Rigidbody[] targets;
+	/* Pulls in all gravity affected, targeted objects */
+
+	[SerializeField] Rigidbody[] targets;
     Rigidbody[] targetsRB;
     bool[] targetsFlag;
     public bool blackholeOn, disableGravityOnStart;

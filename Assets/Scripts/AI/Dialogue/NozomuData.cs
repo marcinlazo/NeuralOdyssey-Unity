@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class NozomuData : MonoBehaviour {
 
-    public static NozomuData instance;
+	/* Data for Nozomu, an in game NPC */
+
+	public static NozomuData instance;
 
     [SerializeField] EmotionPack[] emotionPack;
     static Dictionary<Emotion, EmotionPack> emotionDictionary;

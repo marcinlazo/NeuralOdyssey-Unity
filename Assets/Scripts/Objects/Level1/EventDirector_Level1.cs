@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Event manager in Level1
+/// </summary>
 public class EventDirector_Level1 : MonoBehaviour {
 
     public string dbEventStart;

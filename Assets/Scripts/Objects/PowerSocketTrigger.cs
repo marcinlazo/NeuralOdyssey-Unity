@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PowerSocketTrigger : MonoBehaviour {
 
-    PowerSocket parentSocket;
+	/* Manual trigger for items that start in sockets */
+
+	PowerSocket parentSocket;
 
     void Start()
     {

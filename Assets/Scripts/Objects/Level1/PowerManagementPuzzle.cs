@@ -26,5 +26,6 @@ public class PowerManagementPuzzle : MonoBehaviour, IPowered
         {
             o.SetActive(true);
         }
+		//This puzzle idea was dropped
     }
 }

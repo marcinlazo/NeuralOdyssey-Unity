@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class TriggerTag : MonoBehaviour {
 
-    public string checkName;
+	/* Triggers event when object with set name enters it */
+
+	public string checkName;
     public string fireEvent;
     bool used;
 

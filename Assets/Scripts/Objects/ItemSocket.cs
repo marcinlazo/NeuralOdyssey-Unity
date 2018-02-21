@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class ItemSocket : MonoBehaviour
 {
-    public Transform socket;
+	/* Framework for a general type ItemSocket (similar to ItemSocket) which was never expanded */
+
+	public Transform socket;
     public Text text;
     ItemSource itemSource;
     public bool lockItem = false;
@@ -31,9 +33,6 @@ public class ItemSocket : MonoBehaviour
             itemSource.parentSocket = this;
             if (itemSource.playerHolding != null) itemSource.playerHolding.TakeProp();
             itemSource.ToggleKinematics(true);
-            //if (!lockItem) Text("ONLINE", Color.green);
-            //else Text("LOCKED", Color.green);
-            //if (poweredObject != null) poweredObject.GivePower(this);
             return true;
         }
         else return false;
@@ -46,8 +45,6 @@ public class ItemSocket : MonoBehaviour
         itemSource.ToggleKinematics(false);
         ItemSource outSource = itemSource;
         itemSource = null;
-        //Text("OFFLINE", Color.red);
-        //if (poweredObject != null) poweredObject.TakePower(this);
         return outSource;
     }
     private void OnTriggerEnter(Collider other)

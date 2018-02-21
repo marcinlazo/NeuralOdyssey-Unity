@@ -16,6 +16,9 @@ public class StringKeys
             {pp+"nickname"+po, PlayerData.nickname},
         };
     }
+	/// <summary>
+	/// Replaces keys matching keys from dictionary with values.
+	/// </summary>
     public string ReplaceKeys(string input)
     {
         string result = Regex.Replace(input,

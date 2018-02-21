@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ItemSource : MonoBehaviour {
 
-    public string itemID;
+	/* Framework for a general type ItemSource (similar to PowerSource) which was never expanded */
+
+	public string itemID;
     public ItemSocket parentSocket;
     public PlayerInteraction playerHolding;
 

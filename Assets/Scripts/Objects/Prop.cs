@@ -5,7 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Prop : MonoBehaviour, IThrowable<Prop>
 {
-    public Rigidbody propRigidbody { get; private set; }
+	/* Object that can be held by player and/or is affected by gravity */
+
+	public Rigidbody propRigidbody { get; private set; }
     Collider col;
     [SerializeField] public bool HeavyObject = false;
     float startDrag;

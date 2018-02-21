@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PowerSource : MonoBehaviour {
 
-    public PowerSocket parentSocket;
+	/* Power source that can be carried by player and placed in sockets */
+
+	public PowerSocket parentSocket;
     public PlayerInteraction playerHolding;
 
     public void ToggleKinematics(bool state)

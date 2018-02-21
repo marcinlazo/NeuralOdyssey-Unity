@@ -17,7 +17,10 @@ public class EventManager : MonoBehaviour {
 
         eventDictionary = new Dictionary<string, EventPack>();
     }
-
+	/// <summary>
+	/// Fires method name for any class that is listening.
+	/// </summary>
+	/// <param name="eventID"></param>
     public void FireEvent(string eventID)
     {
         if (!string.IsNullOrEmpty(eventID))
@@ -28,7 +31,6 @@ public class EventManager : MonoBehaviour {
     }
     public void DialogueEvent(string eventID)
     {
-        //ActivateEvent(eventID);
         if (dialogueEvent != null) dialogueEvent(eventID);
     }
     public EventPack Event(string eventID)

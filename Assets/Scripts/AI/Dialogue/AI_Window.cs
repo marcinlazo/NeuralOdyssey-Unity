@@ -52,6 +52,9 @@ public class AI_Window : MonoBehaviour {
         speechQueue.Enqueue(speech);
         if (startQueue) TryNextSpeechEvent();
     }
+	/// <summary>
+	/// Run the dialogue queue on UI
+	/// </summary>
     public void TryNextSpeechEvent()
     {
         if(speechQueue.Count > 0 && !isSpeaking)
@@ -114,8 +117,9 @@ public class AI_Window : MonoBehaviour {
             }
             responseText.text = responseContent;
             responsePanel.SetActive(true);
-            bool awaitingInput = true;
+
             //Await Input
+            bool awaitingInput = true;
             while (awaitingInput)
             {
                 bool[] input = new bool[5];
@@ -168,13 +172,4 @@ public class AI_Window : MonoBehaviour {
         speechQueue.Clear();
         isSpeaking = false;
     }
-}
-public struct EmotionSheet
-{
-    public EmotionDisplay emotion;
-    public Sprite[] emotionSprites;
-}
-public enum EmotionDisplay
-{
-    normal
 }

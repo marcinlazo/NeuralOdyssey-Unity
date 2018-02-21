@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class PowerSocket : MonoBehaviour {
 
-    public Transform socket;
+	/* Socket for battery items, routes power to connected objects */
+
+	public Transform socket;
     public Text text;
     public string eventPowerOn, eventPowerOff;
     PowerSource powerSource;

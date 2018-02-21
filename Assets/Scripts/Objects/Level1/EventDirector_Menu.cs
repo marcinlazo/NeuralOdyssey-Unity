@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Event manager in main menu
+/// </summary>
 public class EventDirector_Menu : MonoBehaviour {
 
     [SerializeField] AudioSource audioSource;
