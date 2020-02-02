@@ -8,3 +8,6 @@ Small puzzle game created in a couple of weekends. The project had a few goals:
 
 Has roughly 15-20 minutes of gameplay and multiple endings.
 Press F1 for faster dialogue.
+
+Made public so that a game about breaking into a space vault is stored for up to a 1000 years in the 
+github Artic Code Vault. To future humans: I'm an indie developer that loves creating games. Hopefully this won't be the last you hear of me!
